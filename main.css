@@ -1,0 +1,78 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #000000;
+    color: #fff;
+}
+
+.navbar{
+    background-color: #001faada;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #000;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-calendario .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.section-title{
+    font-family: "Oswald", sans-serif;
+}
+
+.text-colored{
+    color: #0022bb;
+}
+
+.card-body p{
+    color: #fff;
+}
+
+.nav-cardapio .nav-link.active,
+#suporte button{
+    background-color: #0022bb;
+    color: #fff;
+}
+
+.nav-calendario .nav-link:hover{
+    color: #0029dd;
+}
+
+#suporte button:hover{
+    background-color: #0029dd;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px){
+    .mt-sobre-o-site{
+        margin-top: 10px;
+    }
+
+    article{
+        margin-bottom: 20px;
+    }
+
+    .tab-content{
+        margin-top: 10px;
+    }
+
+    .redes-sociais{
+        padding-top: 16px;
+    }
+}

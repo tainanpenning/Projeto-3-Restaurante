@@ -76,3 +76,14 @@ body{
         padding-top: 16px;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .col-md-3 {
+        flex: 0 0 50%;
+        width: 25%;
+    }
+
+    article{
+        margin-bottom: 20px;
+    }
+}
